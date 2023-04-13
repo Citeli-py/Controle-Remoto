@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Controle remoto</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+
+  <script>
+    function cmd(path) {
+      window.location.replace(path);
+    }
+  </script>
+    
+  <body>
+
+    <div class="remote">
+      <div class="botao" onclick="cmd('pause')">
+        <p>Pausar</p>
+      </div>
+
+      <div class="botao" onclick="cmd('fullscreen')">
+        <p>Tela cheia</p>
+      </div>
+
+      <div class="botao" onclick="cmd('increase_volume')">
+        <p>Aumentar volume</p>
+      </div>
+
+      <div class="botao" onclick="cmd('decrease_volume')">
+        <p>Diminuir volume</p>
+      </div>
+
+      <!-- Timer, desligar -->
+    </div>
+  </body>
+</html>

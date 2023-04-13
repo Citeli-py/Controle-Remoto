@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #a5a5a5;  
+}
+
+.container {  
+    margin-top: 200px;
+    background-color: #444;  
+    padding: 50px;  
+    border-radius: 10px;  
+    box-shadow: 5px 5px 5px #222;
+    font-family: Arial, sans-serif; 
+    font-size: 1.2em;  color: #fff;  
+    text-align: center;
+}
+
+.img {
+    width: 400px;
+    border-radius: 30px;
+}
+
+.remote {  
+    width: 600px;  
+    height: 800px;  
+    background-color: #444;  
+    margin: 50px;
+    padding: 50px;  
+    border-radius: 10px;  
+    box-shadow: 5px 5px 5px #222;
+    font-family: Arial, sans-serif; 
+    font-size: 1.2em;  color: #fff;  
+    text-align: center;
+  }
+  
+.botao {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin: 10px; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    background-color: #666;
+    border: none;
+    color: #fff; 
+    font-size: 1em; 
+    text-align: center;
+    cursor: pointer;
+}
+
+botao:hover {  
+    background-color: #888;
+}

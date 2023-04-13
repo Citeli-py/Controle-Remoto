@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Controle remoto</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+
+    <script>
+        function cmd(path) {
+            window.location.replace(path);
+        }
+    </script>
+
+    <body>
+        <div class="container">
+            <img class="img" src="/static/qrcode.png" onclick="cmd( {{url_for('index')}} )" alt="codigo-qr">
+        </div>
+
+    </body>
+</html>
